@@ -2,5 +2,5 @@ echo off
 color 0f
 cls
 :a
-node favian.js
+node favi.js
 goto a

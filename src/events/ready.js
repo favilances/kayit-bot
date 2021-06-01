@@ -5,7 +5,7 @@ const Discord = require('discord.js');
 
 module.exports = client => {
   var prefix = client.ayarlar.prefix;
-  client.user.setActivity("#Favilances Kayıt BOt'u");
+  client.user.setActivity("#Favilances Kayıt Bot");
   console.log(`
   ●▬▬▬▬▬▬▬▬ | Discord | ▬▬▬▬▬▬▬▬●
   Kullanıcı Adı : ${client.user.tag}

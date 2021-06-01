@@ -1,4 +1,14 @@
 const Discord = require('discord.js');
+const efdb = require("efdb");
+const db = new efdb({
+  "databaseName": "database",
+  "databaseFolder": "databases",
+  "autoFile": true,
+  "seperator":".",
+  "ignoreWarns":true,
+  "deletingBlankData":true
+});
+
 const client = new Discord.Client({
   disableMentions: "everyone", 
   ws: { 
@@ -15,14 +25,13 @@ const client = new Discord.Client({
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
-const db = require("quick.db")
 require('./src/util/eventLoader')(client);
 const log = message => {
   console.log(`Yüklenen Komut; ${message}`);
 };
 client.ayarlar = {
   token: "TOKEN",
-  prefix: "Prefix",
+  prefix: "PREFİX",
   sahip: ["id"]
 }
 client.embed = {
@@ -31,14 +40,7 @@ client.embed = {
   icon : "",
   resim : ""
 }
-client.kayıt = {
-  yetkili : "",
-  erkek : "",
-  kız : "",
-  log : "",
-  kanal : "",
-  tag : ""
-}
+
 let prefix = client.ayarlar.prefix;
 client.db = db;
 client.commands = new Discord.Collection();
