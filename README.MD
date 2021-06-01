@@ -8,7 +8,7 @@ Eğerki sunucunuzda paylaşıcaksanız kaynak olarak https://discord.gg/NMthrEyJ
 # Kurulum
 
 Modüllerin yüklenmesi için öncelikle <code>npm install</code> yazınız,
-ardından <code>favi.js</code> adlı dosyaya <code>client.ayarlar , client.embed , client.kayıt</code> kısımlarını doldurunuz!
+ardından <code>favi.js</code> adlı dosyaya <code>client.ayarlar , client.embed</code> kısımlarını doldurunuz!
 
 # Yakında
 
