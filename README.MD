@@ -14,6 +14,6 @@ ardından <code>favi.js</code> adlı dosyaya <code>client.ayarlar , client.embed
 
 • Embed'ler düzenlenicek: ✅<br>
 • Web Paneli Gelicek ( `20 Star'da` ): ❌<br>
-• Hoşgeldin Mesajı : ❌<br>
-• Tag Mesajı: ❌<br>
+• Hoşgeldin Mesajı : ✅<br>
+• Tag Mesajı: ✅<br>
 
