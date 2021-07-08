@@ -32,7 +32,7 @@ const log = message => {
 client.ayarlar = {
   token: "TOKEN",
   prefix: "PREFİX",
-  sahip: ["id"]
+  sahip: ["idd"]
 }
 client.embed = {
   renk : "",
