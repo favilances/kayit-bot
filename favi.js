@@ -122,3 +122,20 @@ client.elevation = message => {
 var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
 
 client.login(client.ayarlar.token);
+
+client.on("guildMemberAdd", async member => {
+  let kanal = db.fetch(`kayıtkanal_${member.guild.id}`)
+  let tag = db.fetch(`tag_${member.guild.id}`)
+    client.channels.cache.get(kanal).send(`
+:tada: Sunucumuza hoş geldin <@${member.id}>
+Seninle beraber ${member.guild.members.cache.size} kişi olduk ! Sol tarafta bulunan kayıt odalarından birine girerek kayıt işlemini gerçekleştirebilirsin. Tagımızı (\`${tag}\`) alarak bize destek çıkabilir, ailemize katılabilirsin. İyi eğlenceler!`)
+  
+  ;
+  })
+
+client.on('message', msg => {
+	  let tag = db.fetch(`tag_${msg.guild.id}`)
+  if (msg.content === 'tag') {
+    msg.reply(tag);
+  }
+});
