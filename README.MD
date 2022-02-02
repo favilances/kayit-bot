@@ -1,9 +1,6 @@
 # Discord Kayıt Bot
 
-Bu kayıt bot'u Favilances#6152 tarafından yapılmıştır, ücretli bir şekilde verilmesi yasaktır.
-
-# Şart
-Eğerki sunucunuzda paylaşıcaksanız kaynak olarak https://discord.gg/NMthrEyJkb linkini koymanız gerekmektedir.
+Bu kayıt bot'u Favilancesxld#0045 tarafından Discordtr.pro için yapılmıştır
 
 # Kurulum
 
