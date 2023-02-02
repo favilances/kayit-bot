@@ -1,6 +1,6 @@
 # Discord Kayıt Bot
 
-Bu kayıt bot'u Favilancesxld#0045 tarafından Discordtr.pro için yapılmıştır
+Bu kayıt bot'u favilances#0001 tarafından yapılmıştır
 
 # Kurulum
 
